@@ -1,0 +1,90 @@
+@import "_config";
+@import "_home";
+@import "_mediaquerys";
+
+/*--------------------- HEADER ---------------------*/
+
+.navbar-custom {
+    background-color: $primary-color;
+}
+
+.navbar-light .nav-item .nav-link {
+    color: $tertiary-color;
+    font-family: $secondary-font;
+    font-size: 1.5rem;
+}
+
+.navbar-light .nav-item .nav-active {
+    color: $secondary-color;
+}
+
+.navbar-light .nav-item .nav-link:hover {
+    color: $secondary-color;
+}
+
+.navbar {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/*--------------------- MAIN SECTION ---------------------*/
+/* contenedor utilizado para centrar contenido en cada página */
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.main-section__container {
+    width: 80%;
+}
+
+p {
+    font-family: $secondary-font;
+    color: $text-color;
+}
+
+.title-section {
+    font-family: $secondary-font;
+    font-size: 2.8rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: $text-color;
+    text-align: center;
+}
+
+/*--------------------- FOOTER ---------------------*/
+.main-footer {
+    height: 10vh;
+    background-color: $secondary-color;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.main-footer__link {
+    color: $tertiary-color;
+    margin-left: 40px;
+    font-size: 40px;
+}
+
+.main-footer__link:hover {
+    color: $primary-color;
+}
+
+.main-footer__email {
+    color: $tertiary-color;
+    align-self: flex-end;
+    padding-right: 5px;
+    padding-bottom: 0;
+}
+
