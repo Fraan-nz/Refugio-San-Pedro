@@ -9,47 +9,51 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
 
-.title {
-    padding: 0 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.title-main {
-    font-family: $primary-font;
-    font-weight: 700;
-    font-size: 4rem;
-    color: $text-color;
-    text-align: center;
-}
+    .title {
+        padding: 0 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
 
-.title-sub {
-    font-family: $secondary-font;
-    font-size: 2rem;
-    margin-top: 10px;
-    color: $text-color;
-    text-align: center;
-}
+        .title-main {
+            font-family: $primary-font;
+            font-weight: 700;
+            font-size: 4rem;
+            color: $title-color;
+            text-align: center;
+        }
 
-.home-section__button {
-    font-family: $primary-font;
-    text-decoration: none;
-    background-color: $primary-color;
-    color: $tertiary-color;
-    border-radius: 10px;
-    font-size: 2rem;
-    font-weight: 600;
-    letter-spacing: 4px;
-    padding: 10px 10px;
-    margin-top: 30px;
-    width: 200px;
-    text-align: center;
-}
+        .title-sub {
+            font-family: $secondary-font;
+            font-size: 2rem;
+            margin-top: 10px;
+            color: $title-color;
+            text-align: center;
+        }
 
-.home-section__button:hover {
-    background-color: $secondary-color;
-    color: $primary-color;
+        .home-section__button {
+            font-family: $primary-font;
+            text-decoration: none;
+            background-color: rgba(255,255,255,0.8);
+            color: $primary-color;
+            border: 5px solid $primary-color;
+            border-radius: 50px;
+            font-size: 2rem;
+            font-weight: 600;
+            letter-spacing: 4px;
+            margin-top: 30px;
+            width: 250px;
+            text-align: center;
+            transition: .4s;
+        }
+
+        .home-section__button:hover {
+            background-color: $primary-color;
+            color: $white;
+        }
+    }
+
 }

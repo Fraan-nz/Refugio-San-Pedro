@@ -18,29 +18,29 @@
         background-attachment: fixed;
         width: 100%;
         height: 95vh;
-    }
 
-    .title {
-        position: static;
-        left: 10%;
-        padding: 0;
-        align-items: flex-start;
-    }
+        .title {
+            position: static;
+            left: 10%;
+            padding: 0;
+            align-items: flex-start;
 
-    .title-main {
-        font-size: 8rem;
-        text-align: start;
-    }
+            .title-main {
+                font-size: 8rem;
+                text-align: start;
+            }
 
-    .title-sub {
-        font-size: 3rem;
-        padding-left: 0;
-        text-align: start;
-    }
+            .title-sub {
+                font-size: 3rem;
+                padding-left: 0;
+                text-align: center;
+            }
 
-    .home-section__button {
-        font-size: 3rem;
-        align-self: center;
+            .home-section__button {
+                font-size: 3rem;
+                align-self: center;
+            }
+        }
     }
 
         /*--------------------- AYUDANOS ---------------------*/
@@ -48,11 +48,11 @@
 .donations__container {
     display: flex;
     flex-direction: row;
-}
 
 .mercado-pago__info, .bank__info {
     width: 50%;
     height: 60vh;
+}
 }
 
     /*--------------------- CONTACTO ---------------------*/
@@ -100,29 +100,29 @@
         background-attachment: fixed;
         width: 100%;
         height: 95vh;
-    }
 
-    .title {
-        position: absolute;
-        left: 10%;
-        padding: 0;
-        align-items: flex-start;
-    }
+        .title {
+            position: absolute;
+            left: 10%;
+            padding: 0;
+            align-items: flex-start;
 
-    .title-main {
-        font-size: 8rem;
-        text-align: start;
-    }
+            .title-main {
+                font-size: 8rem;
+                text-align: start;
+            }
 
-    .title-sub {
-        font-size: 3rem;
-        padding-left: 0;
-        text-align: start;
-    }
+            .title-sub {
+                font-size: 3rem;
+                padding-left: 0;
+                text-align: start;
+            }
 
-    .home-section__button {
-        font-size: 3rem;
-        align-self: center;
+            .home-section__button {
+                font-size: 3rem;
+                align-self: center;
+            }
+        }
     }
 
     /*--------------------- NOSOTROS ---------------------*/
