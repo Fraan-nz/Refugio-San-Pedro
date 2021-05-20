@@ -10,6 +10,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -60,13 +63,13 @@
 
     <section class="main-section">
         <div class="main-section__container">
-            <h2 class="title-section">
+            <h2 class="title-section" data-aos="fade-down">
                 Ayudanos
             </h2>
-            <p>En el Refugio San Pedro brindamos protección, cuidados veterinarios, alimentación apropiada, vacunación, tratamiento antiparasitario y pulgicida. Queremos seguir cuidando a todos esos perritos que lo necesitan y para que eso sea posible necesitamos de tu ayuda. <br>
+            <p data-aos="zoom-in-up">En el Refugio San Pedro brindamos protección, cuidados veterinarios, alimentación apropiada, vacunación, tratamiento antiparasitario y pulgicida. Queremos seguir cuidando a todos esos perritos que lo necesitan y para que eso sea posible necesitamos de tu ayuda. <br>
             Con tu donación sera posible brindar una mejor alimentación a todos los perritos y ampliar nuestra capacidad para brindarles protección a muchos más.</p>
             <div class="donations__container">
-                <div class="mercado-pago__info">
+                <div class="mercado-pago__info" data-aos="fade-right">
                         <h4>Mercado Pago</h4>
                         <div class="mercado-pago__container">
                             <a href="#" class="mp__button">Dona $100</a>
@@ -82,7 +85,7 @@
                             <a href="#" class="mp__button suscription">Quiero donar mensualmente</a>
                         </div>
                 </div>
-                <div class="bank__info">
+                <div class="bank__info" data-aos="fade-left">
                     <h4>Cuenta Bancaria</h4>
                     <p>Tipo de cuenta: Caja de Ahorro</p>
                     <p>Nombre: Cecilia Carina Tarsetti</p>
@@ -100,12 +103,18 @@
             <a class="main-footer__link" href="#"><i class="fab fa-instagram-square"></i></a>
             <a class="main-footer__link" href="#"><i class="fab fa-twitter-square"></i></a>
         </div>
-        <span class="main-footer__email">email</span>
+        <span class="main-footer__email">Designed by <a href="https://github.com/Fraan-nz">Franco Nuñez</a></span>
     </footer>
 
     <!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- AOS Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 </html>

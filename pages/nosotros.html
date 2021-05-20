@@ -10,6 +10,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -60,14 +63,14 @@
 
     <section class="main-section">
         <div class="main-section__container">
-            <h2 class="title-section">
+            <h2 class="title-section" data-aos="fade-down">
                 ¿Quiénes somos?
             </h2>
             <div class="nosotros-text__container">
                 
-                <div class="photo-1"><img class="nosotros__photo" src="../assets/images/foto.jpg" alt="Foto"></div>
-                <div class="photo-2"><img class="nosotros__photo" src="../assets/images/foto.jpg" alt="Foto"></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis harum maxime dignissimos modi quibusdam earum iste ea autem facilis, beatae praesentium ut ipsa quasi repellat temporibus, cumque, est aliquid eum.
+                <div class="photo-1"><img data-aos="zoom-in-up" class="nosotros__photo" src="../assets/images/foto.jpg" alt="Foto"></div>
+                <div class="photo-2"><img data-aos="zoom-in-up" class="nosotros__photo" src="../assets/images/foto.jpg" alt="Foto"></div>
+                <p data-aos="zoom-in-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis harum maxime dignissimos modi quibusdam earum iste ea autem facilis, beatae praesentium ut ipsa quasi repellat temporibus, cumque, est aliquid eum.
                 Distinctio eaque qui beatae reiciendis earum! Non dolore magni cumque eos ullam minima, culpa deleniti sit quam harum placeat, cupiditate suscipit amet, delectus porro neque officiis repellendus modi facilis? At.Tempore, nostrum reprehenderit officia fugit sapiente alias nulla similique eligendi atque hic molestiae enim. Culpa natus tenetur odio eveniet iure aliquid minus. Praesentium vitae numquam molestias qui in voluptates ullam!
                 Exercitationem voluptates eos suscipit illo quaerat sint similique tempora enim amet alias quas, numquam dolorem saepe cumque tenetur, id eum cupiditate nemo asperiores, repellat animi cum. Possimus praesentium tempora asperiores!</p>
             </div>
@@ -79,11 +82,17 @@
             <a class="main-footer__link" href="#"><i class="fab fa-instagram-square"></i></a>
             <a class="main-footer__link" href="#"><i class="fab fa-twitter-square"></i></a>
         </div>
-        <span class="main-footer__email">email</span>
+        <span class="main-footer__email">Designed by <a href="https://github.com/Fraan-nz">Franco Nuñez</a></span>
     </footer>
 
     <!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- AOS Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

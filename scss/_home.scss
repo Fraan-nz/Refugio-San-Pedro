@@ -26,12 +26,14 @@
             letter-spacing: -5px;
             line-height:70px;
             text-align: center;
+            transition-duration: 2s;
         }
 
         .title-sub {
             font-family: $secondary-font;
             color: $title-color;
             line-height: 35px;
+            transition-duration: 3s;
         }
 
         .sub-1 {
@@ -58,7 +60,8 @@
             font-weight: 600;
             width: 200px;
             text-align: center;
-            transition: .4s;
+            transition-duration: 8s;
+            transition: .5s;
         }
 
         .home-section__button:hover {

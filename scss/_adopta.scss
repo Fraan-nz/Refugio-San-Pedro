@@ -1,5 +1,11 @@
 .item {
     transition: .5s ease-in-out;
+
+    .fancybox {
+        .gallery__img {
+            transition-duration: 1.5s;
+        }
+        }
 }
 
 .item:hover {
