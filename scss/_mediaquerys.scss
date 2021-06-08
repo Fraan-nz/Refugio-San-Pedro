@@ -5,6 +5,11 @@
     body .navbar {
         padding-left: 10%;
         padding-right: 10%;
+
+        .navbar__logo {
+            width: 250px;
+            height: auto;
+        }
     }
 
 
@@ -69,8 +74,8 @@
             h4 {
                 font-size: 2.5rem;
             }
-            p {
-                font-size: 1.3rem;
+            span {
+                font-size: 1.5rem;
             }
 
             .mercado-pago__container {
@@ -88,6 +93,12 @@
         }
     }
 }
+    /*--------------------- NOSOTROS ---------------------*/
+
+    .photo-1, .photo-2 {
+        .nosotros__photo {
+            max-width: 80%;
+        }}
 
     /*--------------------- CONTACTO ---------------------*/
     .form__container {
@@ -106,9 +117,6 @@
 
     /*--------------------- FOOTER SECTION ---------------------*/
 
-    .main-footer {
-        height: 10vh;
-}
 }
 
 @media screen and (min-width:992px) {
@@ -170,23 +178,29 @@
 }
 
     /*--------------------- NOSOTROS ---------------------*/
-    .nosotros-text__container{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        margin-top: 20px;
-    }
-    
-    .nosotros-text__container > p {
-        grid-column: 3/5;
-        grid-row: 1/3;
-        padding-top: 10%;
-    
+    .main-section__container {
+        .nosotros-text__container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            margin-top: 20px;
+
+            .nosotros__text {
+                grid-column: 3/5;
+                grid-row: 1/3;
+                padding-top: 10%;
+            }
+
+            .nosotros__list {
+                padding-bottom: 40px;
+            }
+        }
     }
     
     .photo-1 {
         grid-column: 1/3;
         grid-row: 1/2;
+        margin-top: 50px;
         transform: rotate(5deg);
         transition: all 1s ease;
         position: relative;
@@ -223,14 +237,88 @@
 
     /*--------------------- FOOTER SECTION---------------------*/
 
-    .main-footer {
-        height: 10vh;
-    }
+    body {
+        .main-footer {
+            height: 15vh;
+    
+        .main-footer__container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            height: 100%;
+    
+        .main-footer__social {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+            width: 150px;
+        }
+    
+        .main-footer__logo {
+            display: block;
+            width: 250px;
+            height: auto;
+        }
+    
+        .main-footer__text {
+            display: flex;
+            flex-direction: column;
+            width: 250px;
+            font-family: $secondary-font;
+            color: $white;
+            line-height: 20px;
+            font-size: 1rem;
+    
+            span:first-child {
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+    
+        }
+    
+        }
+        }
+        }
 
 }
 
 @media screen and (min-width:1200px) {
     
+    /*--------------------- NOSOTROS ---------------------*/
+
+    .main-section__container {
+        .nosotros-text__container{
+
+            grid-template-rows: repeat(2, minmax(330px, auto));
+
+            // .nosotros__text {
+                
+            // }
+
+            .nosotros__span {
+                grid-column: 3/5;
+                grid-row: 2/3;
+            }
+
+            .nosotros__list {
+                grid-column: 3/5;
+                grid-row: 2/3;
+                margin-top: 8%;
+
+                li {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+
+    .photo-1 {
+        margin-top: 0;
+    }
+
+    /*--------------------- CONTACTO ---------------------*/
     .form__container {
         grid-column: 1/3;
         grid-row: 2/5;
@@ -262,7 +350,7 @@
             grid-column: 3/4;
             grid-row: 4/5 ;
             margin: 0;
-    }
+        }
     
         .map {
             grid-column: 1/4;

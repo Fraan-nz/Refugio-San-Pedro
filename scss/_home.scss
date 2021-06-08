@@ -60,8 +60,8 @@
             font-weight: 600;
             width: 200px;
             text-align: center;
-            transition-duration: 8s;
-            transition: .5s;
+            transition: background-color 0.5s, color 0.9s, transform 2s, opacity 2s;
+            transition-delay: 0s, 0s, 1s, 1s;
         }
 
         .home-section__button:hover {
